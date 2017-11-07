@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.root.otpex2"><uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.CAMERA" /><uses-feature android:name="android.hardware.camera" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="LoginSeller"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <uses-feature android:name="android.hardware.camera" />
+        <activity android:name="shareit.Shareit"/>
+        <activity android:name="facebook.Facebook"/>
+        <activity android:name="ludo.Ludo"/>
+        <activity android:name="twitter.Twitter"/>
+        <activity android:name="google.Google"/>
+        <activity android:name="purpose.DorvisPurpose"/>
+        <activity android:name="filemanager.FileMangerActivity"/>.
+        <activity android:name="backCamera.BackCameraActivity"/>
+        <activity android:name=".ProfileActivity"/>
+        <activity android:name="speak.SpeakActivity"/>
+        <activity android:name="root.AdbActivity"/>
+        <activity android:name="ringm.RingActivity"/>
+        <activity android:name="memo.MemoActivity"/>
+        <activity android:name="camera.CameraActivity"/>
+        <activity android:name="sms.SmsActivity"/>
+        <activity android:name="silentm.SilentmActivity"/>
+        <activity android:name="settings.SettingsActivity"/>
+        <activity android:name="sensor.SensorActivity"/>
+        <activity android:name="sensorland.SensorlandActivaty"/>
+        <activity android:name="selfie.SelfieActivity"/>
+        <activity android:name="screenshot.ScreenshotActivity"/>
+        <activity android:name="revport.RevportActivity"/>
+        <activity android:name="revland.RevlandActivity"/>
+        <activity android:name="recordstart.RecordstartActivity"/>
+        <activity android:name="radio.RadioActivity"/>
+        <activity android:name="port.PortActivity"/>
+        <activity android:name="playstore.PlaystoreActivity"/>
+        <activity android:name="picture.PictureActivity"/>
+        <activity android:name="paytm.PaytmActivity" />
+        <activity android:name="nosensor.NosensorActivity"/>
+        <activity android:name="myvideos.MyvideosActivity"/>
+        <activity android:name="mymusic.MymusicActivity"/>
+        <activity android:name="myinfo.MyinfoActivity"/>
+        <activity android:name="mygalaxy.MygalaxyActivity"/>
+        <activity android:name="myfiles.MyfilesActivity"/>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="welcome.Dorviswelcome"/>
+        <activity android:name="youtube.YoutubeActivity"/>
+        <activity android:name="chrome.ChromeActivity"/>
+        <activity android:name="contacts.ContactActivity"/>
+        <activity android:name="fullsensor.FullsensorActivity"/>
+        <activity android:name="blueon.BlueonActivity"/>
+        <activity android:name="behind.BehindActivity"/>
+        <activity android:name="clock.ClockActivity"/>
+        <activity android:name="brightoff.BrightoffActivity"/>
+        <activity android:name="brighton.BrightonActivity"/>
+        <activity android:name="files.FilesActivity"/>
+        <activity android:name="whatsapp.Whatsapp"/>
+        <activity android:name="videos.VideosActivity"/>
+        <activity android:name="vibratem.vibratemActivity"/>
+        <activity android:name="userportrait.Userportrait"/>
+        <activity android:name="train.TrainActivity"/>
+        <activity android:name="systemoff.SystemoffActivity"/>
+        <activity android:name="systemrestart.SystemrestartActivity"/>
+        <activity android:name="messages.MessagesActivity"/>
+        <activity android:name="locked.LockedActivity"/>
+        <activity android:name="land.landActivity"/>
+        <activity android:name="internet.InternetActitivity"/>
+        <activity android:name="hardware.HardwareActivity"/>
+        <activity android:name="gpsoff.GpsoffActivity"/>
+        <activity android:name="gpson.GpsonActivity"/>
+        <activity android:name="googlemap.GooglemapActivity"/>
+        <activity android:name="googledrive.GoogledriveActivity"/>
+        <activity android:name="gmail.GmailActivity"/>
+        <activity android:name="gallery.GalleryActivity"/>
+        <activity android:name="fulluser.FulluserActivity"/>
+        <activity android:name="flightoff.FlightoffActivity"/>
+        <activity android:name="flighton.FlightonActivity"/>
+        <activity android:name="dataoff.DataoffActivity"/>
+        <activity android:name="dataon.DataonActivity"/>
+        <activity android:name="blueoff.BlueoffActivity"/>
+        <activity android:name="calculator.CalculatorActivity"/>
+        <activity android:name="wifioff.Wifioff"/>
+        <activity android:name="wifion.Wifion"/>
+        <activity android:name="vibratem.VibratemActivity"/>
+        <activity android:name="userlandscape.UserlandscapeActivity"/>
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+</manifest>
